@@ -1,0 +1,32 @@
+.o-ui-button {
+    --o-ui-text-button-padding-sm: var(--o-ui-sp-3);
+    --o-ui-text-button-padding-md: var(--o-ui-sp-4);
+    --o-ui-text-button-with-icon-padding-sm: var(--o-ui-sp-2);
+    --o-ui-text-button-with-icon-padding-md: var(--o-ui-sp-3);
+    --o-ui-text-button-icon-size-sm: 1rem;
+    --o-ui-text-button-icon-size-md: 1.25rem;
+    --o-ui-button-height-md: var(--o-ui-sz-6);
+    padding: 0;
+    background-color: transparent;
+    background-image: none;
+    cursor: pointer;
+    line-height: var(--o-ui-lh-1);
+    font-variation-settings: "wght" 500;
+    transition: all var(--o-ui-easing-duration-2) var(--o-ui-easing-productive);
+    border: none;
+    text-align: center;
+    position: relative;
+    width: max-content;
+    border-radius: var(--o-ui-br-2);
+    color: inherit;
+    font-family: inherit;
+    font-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: max-content;
+    padding: 0 var(--o-ui-text-button-padding-md);
+    min-height: var(--o-ui-button-height-md);
+    color: var(--o-ui-text-alias-static-white);
+    background-color: var(--o-ui-bg-alias-accent);
+}
